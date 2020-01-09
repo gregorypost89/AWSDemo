@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Serverless Chat</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/site.css"/>
+</head>
+<body>
+  <!--Top Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">Serverless Chat</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Conversations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign Out</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+  </nav>
+
+    <!--Middle Body Content (currently empty)-->
+    <div class="container" id="chat">
+        &nbsp;
+    </div>
+    
+    <!--Bottom Navbar (for text input and "send chat" button-->
+    <nav class="navbar fixed-bottom">
+      <div class="container-fluid">       
+        <div class="form-group">
+          <label class="col-form-label" for="inputDefault">Input Text Here</label>
+          <input type="text" class="form-control" placeholder="Default input" id="inputDefault">
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-primary">Send</button>          
+          </span>
+        </div>      
+      </div>
+    </nav>
+    <!--Imports-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/site.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            
+        });
+        </script>
+</body>
+</html>
